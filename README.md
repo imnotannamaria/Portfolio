@@ -1,5 +1,5 @@
 # Portfolio
-Meu Portfólio em andamento
+Meu Portfólio em andamento;
 Utilizando: 
 HTML
 CSS
