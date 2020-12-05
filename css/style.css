@@ -53,7 +53,7 @@ header .container{
 
 .mobile{
     display: none;
-    background-image: url('../imagens/Icons/menu-icon.svg');
+    background-image: url('../imagens/menu-icon.svg');
     background-repeat: no-repeat;
     width: 40px;
 	height: 40px;
@@ -447,6 +447,290 @@ section.habilidades .pro-bar-jquery{
     padding-top: 3px;
 }
 
+/* PORTFÓLIO */
+/* ==================================================================================================
+===================================================================================================== */
+
+section.portfolio .libelula{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px;
+    margin: 0 auto;
+    background-image: url('../imagens/iconelibelula.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+    
+section.portfolio{
+    background-color: #918ef4;
+    margin-top: 100px;
+}
+    
+section.portfolio .titulo-habilidades{
+    text-align: center;
+    color: #8cffda;
+    font-weight: bold;
+}
+    
+section.portfolio .barra-titulo{
+    width: 80px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #231B1B;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+}
+    
+section.portfolio .port-box{
+    margin: 20px auto;
+    width: 60%;
+    height: 200px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+section.portfolio .port-box:hover{
+    background-color: #8cffda;
+    background-image: url('../imagens/search-plus-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 20% 20%;
+    background-position: center;
+}
+    
+
+/* CONTATO */
+/* ==================================================================================================
+===================================================================================================== */
+
+section.contato .libelula{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px;
+    margin: 0 auto;
+    background-image: url('../imagens/iconelibelula.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+    
+/* section.contato {
+    margin-top: 100px;
+} */
+    
+section.contato  .titulo-contato {
+    text-align: center;
+    color:  #918ef4;
+    font-weight: bold;
+}
+    
+section.contato  .barra-titulo{
+    width: 80px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #231B1B;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+}
+    
+section.contato .mensagem {
+    color: #7161EF;
+    text-align: center;
+    width: 60%;
+}
+
+section.contato span{
+    display: block;
+
+}
+
+section.contato .form-wraper input[type=text]{
+    display: block;
+    background-color: #d4d3fd;
+    width: 60%;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+textarea{
+    display: block;
+    background-color: #d4d3fd;
+    width: 60%;
+    height: 55px;
+    /* margin: 20px auto; */
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+section.contato .botao-contrate{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    font-weight: light;
+    background-color: #0CCE6B;
+    color: white;
+    margin-top: 30px;
+}
+
+section.contato .botao-contrate:hover{
+    background-color: #231B1B;
+}
+
+.icone{
+    background-color: rgba(35, 27, 27, 0.3);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.icone > i{
+    font-size: 35px;
+    position: relative;
+    left: 12px;
+    color: #7161EF;
+}
+
+.icone > i:hover{
+    font-size: 35px;
+    position: relative;
+    left: 12px;
+    color: #231B1B;
+}
+
+.icone:hover{
+    position: relative;
+    top: -2px;
+}
+
+
+section.contato .icone-msn{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+section.contato .box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* =================================================================================================
+====================================================================================================*/
+/* FOOTER */
+
+footer{
+    background-color: #918ef4;
+}
+
+footer  .social-box{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    margin: 20px auto;
+}
+
+footer  .social-icon{
+    margin-right: 10px;
+}
+
+footer  .icon-wraper{
+    background-color: rgba(250,250,250, 0.3);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+footer  .icon-wraper:hover{
+    position: relative;
+    top: -3px;
+}
+
+footer .social-icon i{
+    font-size: 40px;
+    position: absolute;
+    left: 13px;
+}
+
+footer  .i-wraper{
+    position: relative;
+    top: -20px;
+}
+
+footer  i.fa-instagram{
+    color: #fff;
+}
+
+footer  i.fa-instagram:hover{
+    color: #231B1B;
+}
+
+footer  i.fa-envelope{
+    color: #fff;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+footer  i.fa-envelope:hover{
+    color: #231B1B;
+}
+
+footer  i.fa-whatsapp{
+    color: #fff;
+}
+
+footer  i.fa-whatsapp:hover{
+    color: #231B1B;
+}
+
+footer i.fa-linkedin-in{
+    color: #fff;
+}
+
+footer  i.fa-linkedin-in:hover{
+    color: #231B1B;
+}
+
+footer  i.fa-github{
+    color: #fff;
+    font-size: 50px;
+    position: relative;
+    left: 6.5px;
+    top: 20px;
+}
+
+footer i.fa-github:hover{
+    color: #231B1B;
+}
+
+
+
+
+
+
+
+
+
 
 /* =================================================================================================
 ====================================================================================================
@@ -481,7 +765,29 @@ section.habilidades .pro-bar-jquery{
         height: 430px;
     }
     
+    /* portfolio */
 
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 80%;
+        height: 200px;
+    }
+
+    /* contato */
+    section.contato .mensagem {
+        width: 80%;
+    }
+    
+    section.contato .form-wraper input[type=text]{
+        width: 80%;
+        height: 50px;
+        margin: 10px 0;
+    }
+    
+    textarea{
+        width: 80%;
+        height: 120px;
+    }
 }
 
 
@@ -536,6 +842,30 @@ section.habilidades .pro-bar-jquery{
         width: 200px;
     }
 
+    /* portfolio */
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 90%;
+        height: 200px;
+    }
+
+    /* contato */
+    section.contato .mensagem {
+        width: 90%;
+    }
+    
+    section.contato .form-wraper input[type=text]{
+        width: 90%;
+        height: 50px;
+        margin: 10px 0;
+    }
+    
+    textarea{
+        width: 90%;
+        height: 120px;
+    }
+
 }
 
 @media only screen and (max-width: 720px) {
@@ -565,6 +895,42 @@ section.habilidades .pro-bar-jquery{
         margin: 5px auto;
     }
 
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 60%;
+        height: 200px;
+    }
+
+    /* contato */
+    section.contato span{
+        text-align: center;
+    }
+
+    section.contato .mensagem {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    section.contato .form-wraper input[type=text]{
+        width: 90%;
+        height: 50px;
+        margin: 10px auto;
+    }
+    
+    /* .form-wraper{
+        background-color: red;
+    } */
+
+    textarea{
+        width: 80%;
+        height: 120px;
+        margin-top: 0;
+        margin: 0 auto;
+    }
+
+    section.contato .botao-contrate{
+        margin: 30px auto;
+    }
 }
 
 @media only screen and (max-width: 450px){
@@ -700,11 +1066,25 @@ section.habilidades .pro-bar-jquery{
         width: 70%;
     }
 
+    /* portfolio */
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 80%;
+        height: 200px;
+    }
+
 }
 
 @media only screen and (max-width: 370px) {
     section.habilidades .titulo-habilidades{
         font-size: 25px;
+    }
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 80%;
+        height: 150px;
     }
 }
 
