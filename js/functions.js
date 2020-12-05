@@ -15,4 +15,29 @@ $(function(){
         return false;
     })
     
+    //hover social-box    
+    $('.icon-wraper').hover(function(){
+        $(this).find('i').css("color", "#231B1B");
+    })
+
+    $('.icon-wraper').mouseleave(function(){
+        $(this).find('i').css("color", "#7161EF");
+    })
+
+    $('footer .icon-wraper').hover(function(){
+        $(this).find('i').css("color", "#231B1B");
+    })
+
+    $('footer .icon-wraper').mouseleave(function(){
+        $(this).find('i').css("color", "#fff");
+    })
+
+    //hover portfolio
+    $('.port-box').hover(function(){
+        $(this).find('#soon').hide();
+    })
+
+    $('.port-box').mouseleave(function(){
+        $(this).find('#soon').show();
+    })
 });

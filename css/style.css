@@ -122,6 +122,23 @@ nav.desktop a:hover{
     font-size: 30px;
 }
 
+#type::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+
 header .botao-contrate{
     width: 150px;
     height: 40px;
@@ -301,7 +318,7 @@ section.sobre .img-sobre{
     transform: translate(-50%, -50%);
     width: 96%;
 	height: 96%;
-    background-image: url('../imagens/img-me-sobre.jpeg');
+    background-image: url('../imagens/img-me-header-3.jpeg');
 	background-size: 100% 100%;
 }
 
@@ -493,6 +510,14 @@ section.portfolio .port-box{
     border-radius: 10px;
 }
 
+section.portfolio .port-box h5{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-weight: bold;
+    color: #231B1B;
+}
+
 section.portfolio .port-box:hover{
     background-color: #8cffda;
     background-image: url('../imagens/search-plus-solid.svg');
@@ -564,7 +589,7 @@ textarea{
     display: block;
     background-color: #d4d3fd;
     width: 60%;
-    height: 55px;
+    height: 100px;
     /* margin: 20px auto; */
     margin-top: 20px;
     border-radius: 10px;
@@ -597,7 +622,6 @@ section.contato .botao-contrate:hover{
     align-items: center;
     position: relative;
     border-radius: 100%;
-    cursor: pointer;
 }
 
 .icone > i{
@@ -606,19 +630,6 @@ section.contato .botao-contrate:hover{
     left: 12px;
     color: #7161EF;
 }
-
-.icone > i:hover{
-    font-size: 35px;
-    position: relative;
-    left: 12px;
-    color: #231B1B;
-}
-
-.icone:hover{
-    position: relative;
-    top: -2px;
-}
-
 
 section.contato .icone-msn{
     margin-left: 20px;
@@ -642,7 +653,7 @@ footer{
 footer  .social-box{
     display: flex;
     align-items: center;
-    width: 350px;
+    width: 295px;
     margin: 20px auto;
 }
 
@@ -652,8 +663,9 @@ footer  .social-icon{
 
 footer  .icon-wraper{
     background-color: rgba(250,250,250, 0.3);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -666,9 +678,9 @@ footer  .icon-wraper:hover{
 }
 
 footer .social-icon i{
-    font-size: 40px;
+    font-size: 35px;
     position: absolute;
-    left: 13px;
+    left: 9.5px;
 }
 
 footer  .i-wraper{
@@ -678,45 +690,35 @@ footer  .i-wraper{
 
 footer  i.fa-instagram{
     color: #fff;
+    top: 2px;
 }
 
-footer  i.fa-instagram:hover{
-    color: #231B1B;
-}
 
 footer  i.fa-envelope{
     color: #fff;
     position: relative;
-    left: 10px;
-    top: 20px;
-}
-
-footer  i.fa-envelope:hover{
-    color: #231B1B;
+    left: 8px;
+    top: 22px;
 }
 
 footer  i.fa-whatsapp{
     color: #fff;
-}
-
-footer  i.fa-whatsapp:hover{
-    color: #231B1B;
+    top: 2px;
 }
 
 footer i.fa-linkedin-in{
     color: #fff;
+    top: 3px;
+    left: 10px;
 }
 
-footer  i.fa-linkedin-in:hover{
-    color: #231B1B;
-}
 
 footer  i.fa-github{
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
-    left: 6.5px;
-    top: 20px;
+    left: 6px;
+    top: 21px;
 }
 
 footer i.fa-github:hover{
@@ -786,7 +788,7 @@ footer i.fa-github:hover{
     
     textarea{
         width: 80%;
-        height: 120px;
+        
     }
 }
 
@@ -866,6 +868,40 @@ footer i.fa-github:hover{
         height: 120px;
     }
 
+    section.contato .mensagem-info h2, section.contato .mensagem-info h5{
+        text-align: center;
+
+    }
+
+    section.contato .mensagem-info h5{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    section.contato .info-box{
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+
+    }
+
+    section.contato .box{
+        display: block;
+        margin: -25px;
+    }
+
+    section.contato .icone{
+        margin: 10px auto;
+    }
+
+    section.contato .icone-msn h6{
+        font-size: 15px;
+    }
+
+    section.contato .icone-msn #h6{
+        font-size: 13px;
+    }
+
 }
 
 @media only screen and (max-width: 720px) {
@@ -930,6 +966,33 @@ footer i.fa-github:hover{
 
     section.contato .botao-contrate{
         margin: 30px auto;
+    }
+
+    section.contato .mensagem-info h2, section.contato .mensagem-info h5{
+        text-align: center;
+    }
+
+    section.contato .info-box{
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    section.contato .box{
+        display: block;
+        margin: 0px;
+    }
+
+    section.contato .icone{
+        margin: 10px auto;
+    }
+
+    section.contato .icone-msn h6{
+        font-size: 15px;
+    }
+
+    section.contato .icone-msn #h6{
+        font-size: 13px;
     }
 }
 
