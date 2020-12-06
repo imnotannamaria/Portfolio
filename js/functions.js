@@ -40,4 +40,9 @@ $(function(){
     $('.port-box').mouseleave(function(){
         $(this).find('#soon').show();
     })
+
+    //CORREÇÃO MENU MOBILE
+    $('.ul-mobile-a').click(function(){
+        $(this).find('.mobile').css('opacity', '0');
+    })
 });

@@ -866,6 +866,7 @@ footer i.fa-github:hover{
     textarea{
         width: 90%;
         height: 120px;
+        margin: 0 auto !important;
     }
 
     section.contato .mensagem-info h2, section.contato .mensagem-info h5{
@@ -958,7 +959,7 @@ footer i.fa-github:hover{
     } */
 
     textarea{
-        width: 80%;
+        width: 90%;
         height: 120px;
         margin-top: 0;
         margin: 0 auto;
@@ -1149,6 +1150,75 @@ footer i.fa-github:hover{
         width: 80%;
         height: 150px;
     }
+
+    /* footer */
+
+    footer  .social-box{
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin: 20px auto;
+    }
+    
+    footer  .social-icon{
+        margin-right: 8px;
+    }
+    
+    footer  .icon-wraper{
+        background-color: rgba(250,250,250, 0.3);
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    footer .social-icon i{
+        font-size: 30px;
+        position: absolute;
+        left: 9.5px;
+    }
+    
+    footer  .i-wraper{
+        position: relative;
+        top: -20px;
+    }
+    
+    footer  i.fa-instagram{
+        color: #fff;
+        top: 5px;
+    }
+    
+    
+    footer  i.fa-envelope{
+        color: #fff;
+        position: relative;
+        left: 8px;
+        top: 22px;
+    }
+    
+    footer  i.fa-whatsapp{
+        color: #fff;
+        top: 4px;
+    }
+    
+    footer i.fa-linkedin-in{
+        color: #fff;
+        top: 5px;
+        left: 10px;
+    }
+    
+    
+    footer  i.fa-github{
+        color: #fff;
+        font-size: 40px;
+        position: relative;
+        left: 3px;
+        top: 21px;
+    }
+    
+    
 }
 
 
