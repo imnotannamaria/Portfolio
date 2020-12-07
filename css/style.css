@@ -9,15 +9,13 @@
 
 html,body{
     height: 100%;
-    position:relative;
-    overflow-x:hidden;
+    
 }
 
-/* body{
+body{
     overflow-x: hidden;
-    overflow-y: scroll !important;
-    position: absolute;
-} */
+    position:relative;
+}
 
 .clear{
     clear: both;
