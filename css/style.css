@@ -4,7 +4,8 @@
 	text-decoration: none;
 	list-style: none;
     box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden
 }
 
 html,body{
@@ -18,15 +19,6 @@ html,body{
 header .container{
     margin-top: 170px;
 }
-
-.container{
-    overflow-x: hidden
-}
-
-.center{
-    overflow-x: hidden
-}
-
 
 
 /* NAV */
