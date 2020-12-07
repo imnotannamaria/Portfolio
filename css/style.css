@@ -4,14 +4,14 @@
 	text-decoration: none;
 	list-style: none;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 html,body{
     height: 100%;
 }
 
-body{ 
+body{
     overflow-x: hidden;
 }
 
@@ -22,6 +22,7 @@ body{
 header .container{
     margin-top: 170px;
 }
+
 
 
 /* NAV */
@@ -561,9 +562,9 @@ section.contato .libelula{
     z-index: 4;
 }
     
-section.contato {
-    overflow: hidden;
-}
+/* section.contato {
+    margin-top: 100px;
+} */
     
 section.contato  .titulo-contato {
     text-align: center;
