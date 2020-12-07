@@ -14,7 +14,7 @@ html,body{
 
 body{
     height: 100%;
-    overflow: hidden !important;
+    overflow-x: hidden !important;
     width: 100%;
     position: fixed;
 }
