@@ -561,9 +561,9 @@ section.contato .libelula{
     z-index: 4;
 }
     
-/* section.contato {
-    margin-top: 100px;
-} */
+section.contato {
+    overflow: hidden;
+}
     
 section.contato  .titulo-contato {
     text-align: center;
