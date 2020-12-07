@@ -9,14 +9,11 @@
 
 html,body{
     height: 100%;
-    overflow-x: hidden;
 }
 
-/* .center{
-    width: 100%;
-    max-width: 1250px;
-    margin: 0 auto;
-} */
+body{
+    overflow-x: hidden;
+}
 
 .clear{
     clear: both;
