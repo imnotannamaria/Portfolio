@@ -12,11 +12,6 @@ html,body{
     
 }
 
-body{
-    height: 100%;
-    overflow-x: hidden !important;
-    width: 100%;
-}
 
 .clear{
     clear: both;
@@ -85,6 +80,11 @@ nav.mobile li{
 nav.mobile a{ 
     color: white;
 
+}
+
+nav.desktop{
+    overflow-x: hidden;
+    width: 100%;
 }
 
 nav.desktop ul{
