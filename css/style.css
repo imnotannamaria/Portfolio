@@ -9,6 +9,7 @@
 
 html,body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 /* .center{
@@ -267,7 +268,28 @@ header i.fa-github:hover{
     background-color: #8778f8;
 }
 
+.social-thing{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 45%;
+    top: 70%;
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+}
 
+.triangulo{
+    position: relative;
+    left: 3%;
+    top: -65px;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid white;
+}
 
 /* ==============================================================================================
 ============================================================================================= */

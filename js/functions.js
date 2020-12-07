@@ -42,7 +42,16 @@ $(function(){
     })
 
     //CORREÇÃO MENU MOBILE
-    $('.ul-mobile-a').click(function(){
-        $(this).find('.mobile').css('opacity', '0');
+    // $('.ul-mobile-a').click(function(){
+    //     $(this).find('.mobile').css('opacity', '0');
+    // })
+
+    //SOCIAL 
+    $('.img-box').hover(function(){
+        $(this).find('.social-thing').css('display', 'block');
+    })
+
+    $('.img-box').mouseleave(function(){
+        $(this).find('.social-thing').css('display', 'none');
     })
 });
