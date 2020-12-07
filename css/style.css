@@ -11,16 +11,20 @@ html,body{
     height: 100%;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 .clear{
     clear: both;
 }
 
 header .container{
     margin-top: 170px;
+}
+
+.container{
+    overflow-x: hidden
+}
+
+.center{
+    overflow-x: hidden
 }
 
 
