@@ -92,6 +92,10 @@ nav.desktop li{
     margin: 20px 20px;
 }
 
+nav li:first-child a{
+    border-bottom: 1px solid #8cffda;
+}
+
 nav.desktop a{
     color: white;
     font-weight: 00;
@@ -99,6 +103,7 @@ nav.desktop a{
 
 nav.desktop a:hover{
     color: #8cffda;
+    text-decoration: none;
 }
 
 /* ===========================================================================================*/
