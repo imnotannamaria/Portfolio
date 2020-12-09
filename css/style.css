@@ -1094,8 +1094,8 @@ footer i.fa-github:hover{
     header i.fa-instagram{
         color: #7161EF;
         position: relative;
-        left: 10px;
-        top: 20px;
+        left: 9.5px;
+        top: 21px;
     }
     
     header i.fa-envelope{
@@ -1121,9 +1121,9 @@ footer i.fa-github:hover{
     
     header i.fa-github{
         color: #7161EF;
-        font-size: 40px;
+        font-size: 35px;
         position: relative;
-        left: 3.5px;
+        left: 6px;
         top: 21px;
     }
 
@@ -1233,9 +1233,9 @@ footer i.fa-github:hover{
     
     footer  i.fa-github{
         color: #fff;
-        font-size: 40px;
+        font-size: 35px;
         position: relative;
-        left: 3px;
+        left: 6px;
         top: 21px;
     }
     
