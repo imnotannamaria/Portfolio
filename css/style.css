@@ -267,7 +267,7 @@ header i.fa-github:hover{
     background-color: #8778f8;
 }
 
-.social-thing{
+header .social-thing{
     width: 80px;
     height: 30px;
     position: relative;
@@ -279,10 +279,9 @@ header i.fa-github:hover{
     display: none;
 }
 
-.triangulo{
+header .triangulo{
     position: relative;
-    left: 3%;
-    top: -65px;
+    top: -60px;
     width: 0; 
     height: 0; 
     border-left: 20px solid transparent;
@@ -342,6 +341,7 @@ section.sobre .img-sobre{
     background-image: url('../imagens/img-me-header-3.jpeg');
 	background-size: 100% 100%;
 }
+
 
 section.sobre .texto-titulo{
     margin-top: 20px;
