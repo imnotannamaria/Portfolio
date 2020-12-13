@@ -11,3 +11,4 @@ function typeWriter(elemento) {
 const titulo = document.getElementById("type");
 
 typeWriter(titulo);
+

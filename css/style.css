@@ -590,50 +590,6 @@ section.contato .mensagem {
     width: 60%;
 }
 
-section.contato span{
-    display: block;
-
-}
-
-section.contato .form-wraper input[type=text]{
-    display: block;
-    background-color: #d4d3fd;
-    width: 60%;
-    height: 50px;
-    margin: 10px 0;
-    border-radius: 10px;
-    border: 0;
-    color: white;
-}
-
-textarea{
-    display: block;
-    background-color: #d4d3fd;
-    width: 60%;
-    height: 100px;
-    /* margin: 20px auto; */
-    margin-top: 20px;
-    border-radius: 10px;
-    border: 0;
-    color: white;
-}
-
-section.contato .botao-contrate{
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
-    line-height: 40px;
-    font-weight: light;
-    background-color: #0CCE6B;
-    color: white;
-    margin-top: 30px;
-}
-
-section.contato .botao-contrate:hover{
-    background-color: #231B1B;
-}
 
 .icone{
     background-color: rgba(35, 27, 27, 0.3);
