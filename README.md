@@ -1,6 +1,6 @@
 # Portfolio
 Meu Portfólio em andamento |
-Utilizando|
+Utilizando:
 HTML|
 CSS|
-JAVA SCRIPT/JQUERY|
+JAVA SCRIPT/JQUERY
